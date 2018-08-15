@@ -23,7 +23,9 @@ int main()
      else
      	high=mid-1;
   }
-  if(f==0)
+	if(a[mid]==ele)
+		printf("\nSuccessful");
+  else if(f==0)
   	printf("\nNot Found");
 
 	return 0;
